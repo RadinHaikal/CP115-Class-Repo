@@ -8,3 +8,4 @@ else:
         parkingFee = 6 + hours - 5 * 3.0
 if parkingFee > 30.0:
     parkingFee = 30.0
+print(parkingFee)

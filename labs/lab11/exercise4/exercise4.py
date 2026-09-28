@@ -1,4 +1,17 @@
 sales = int(input())
+count = 0
+record_days = 0
+highest_sales = 0 
+while sales != 0:
+    count += 1
+
+    if sales > highest_sales:
+        record_days += 1 
+        higest_sales = sales
+
+    sales = int(input())
+
+
 
 
 
